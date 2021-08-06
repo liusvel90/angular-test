@@ -1,0 +1,18 @@
+{
+  "name": "reloj",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^12.1.0",
+    "@angular/core": "^12.1.0"
+  },
+  "dependencies": {
+    "tslib": "^2.2.0"
+  },
+  "main": "bundles/reloj.umd.js",
+  "module": "fesm2015/reloj.js",
+  "es2015": "fesm2015/reloj.js",
+  "esm2015": "esm2015/reloj.js",
+  "fesm2015": "fesm2015/reloj.js",
+  "typings": "reloj.d.ts",
+  "sideEffects": false
+}
