@@ -1,0 +1,10 @@
+.reloj {
+  width: 220px;
+  font-size: 35px;
+  text-align: center;
+  font-family: 'Share Tech Mono';
+  color: #daf6ff;
+  background: #2d2a35e8;  
+  text-shadow: 0 0 20px rgb(9 242 17), 0 0 20px rgb(10 175 230 / 0%);
+  border-radius: 5px;
+}

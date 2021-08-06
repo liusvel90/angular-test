@@ -1,0 +1,10 @@
+<div class="cronometro">
+  <div id="display">
+  	<span>{{display}}</span>  	
+  </div>
+  <ul id="buttons">
+    <li><button (click)="timer==null?iniciar():parar()">{{timer==null?'Iniciar':'Parar'}}</button></li>
+    <!-- <li><button (click)="parar()">Parar</button></li> -->
+    <li><button (click)="reset()">Reset</button></li>
+  </ul>
+</div>

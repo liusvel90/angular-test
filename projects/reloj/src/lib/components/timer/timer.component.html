@@ -1,0 +1,10 @@
+<div>
+	<input type="time" id="appt" name="appt"
+	step="1" [value]="timerVal" #timerElement required>
+
+	<ul id="buttons">
+		<!-- <li><button (click)="iniciar(timerElement.value)" >Iniciar</button></li> -->
+		<li><button (click)="tick==null?iniciar(timerElement.value):pausa()">{{tick==null?'Iniciar':'Pausa'}}</button></li>
+		<li><button (click)="reset()">Reset</button></li>
+	</ul>
+</div>

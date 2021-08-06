@@ -100,6 +100,37 @@
           }
         }
       }
+    },
+    "reloj": {
+      "projectType": "library",
+      "root": "projects/reloj",
+      "sourceRoot": "projects/reloj/src",
+      "prefix": "rlj",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/reloj/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/reloj/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/reloj/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/reloj/src/test.ts",
+            "tsConfig": "projects/reloj/tsconfig.spec.json",
+            "karmaConfig": "projects/reloj/karma.conf.js"
+          }
+        }
+      }
     }
   },
   "defaultProject": "angular-test"

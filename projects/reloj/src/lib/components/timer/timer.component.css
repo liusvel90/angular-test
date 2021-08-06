@@ -1,0 +1,25 @@
+div {
+    display: flex;
+}
+input {
+    margin: 17px 0;
+}
+
+ul#buttons {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+ul#buttons button {
+  background: #0f62fe;
+  border: 1px solid;
+  width: 100px;
+  color: #fff;
+  font-size: 18px;
+  text-align: left;
+  display: block;
+  padding: 10px 0 10px 20px;
+  cursor: pointer;
+}
