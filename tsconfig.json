@@ -15,9 +15,17 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "paths": {
+      "calendario": [
+        "dist/calendario/calendario",
+        "dist/calendario"
+      ],
       "reloj": [
         "dist/reloj/reloj",
         "dist/reloj"
+      ],
+      "wizard": [
+        "dist/wizard/wizard",
+        "dist/wizard"
       ]
     },
     "target": "es2017",
