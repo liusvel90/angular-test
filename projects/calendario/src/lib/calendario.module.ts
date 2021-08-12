@@ -1,3 +1,4 @@
+import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { CalendarioComponent } from './calendario.component';
 
@@ -8,6 +9,7 @@ import { CalendarioComponent } from './calendario.component';
     CalendarioComponent
   ],
   imports: [
+    BrowserModule
   ],
   exports: [
     CalendarioComponent

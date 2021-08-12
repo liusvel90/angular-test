@@ -4,9 +4,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import {RelojModule} from 'reloj';
+// import {RelojModule} from 'reloj';
 
-// './../../projects/cards/src/public-api';
+import {RelojModule} from './../../projects/reloj/src/public-api';
+import {CalendarioModule} from './../../projects/calendario/src/public-api';
+import {WizardModule} from './../../projects/wizard/src/public-api';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import {RelojModule} from 'reloj';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RelojModule
+    RelojModule,
+    CalendarioModule,
+    WizardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
